@@ -1,0 +1,16 @@
+{
+  "name": "europa",
+  "version": "1.0.0",
+  "description": "High performance data backing for modelers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Joseph P Murphy",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.1.0"
+  }
+}

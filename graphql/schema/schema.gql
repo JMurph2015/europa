@@ -1,0 +1,13 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    trajectory(id: String): Trajectory
+    dbquery( database: String, table: String, key: String ): String
+}
+
+type Mutation {
+
+}

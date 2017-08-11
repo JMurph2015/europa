@@ -1,0 +1,22 @@
+type Trajectory {
+    id: String
+    centralBody: String
+    epoch: Date
+    interpolationMethod: String
+    numberOfEphemerisPoints: Int
+    states(startTime: Float = null, endTime: Float = null): [TrajectoryState!]!
+
+    restricted: Boolean
+    ownerGroup: String
+    classification: String
+}
+
+type TrajectoryState {
+    time: Float
+    pos: [Float!]!
+    vel: [Float!]!
+
+    restricted: Boolean
+    ownerGroup: String
+    classification: String
+}

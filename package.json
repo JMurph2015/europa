@@ -10,6 +10,7 @@
   "author": "Joseph P Murphy",
   "license": "MIT",
   "dependencies": {
+    "acl": "^0.4.10",
     "graphql": "^0.10.5",
     "graphql-tools": "^1.1.0"
   }
